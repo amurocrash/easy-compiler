@@ -1,4 +1,5 @@
-import Linkedlist from './tiny-script/common/linkedlist'
+import { deleteComment, expression, func } from './test/Lexer.test'
 
-const ll = new Linkedlist()
-console.log(ll)
+expression()
+func()
+deleteComment()

@@ -22,3 +22,7 @@ export default {
   BOOLEAN: new TokenType('BOOLEAN', 7),
   STRING : new TokenType("STRING", 8)
 }
+
+export const Keywords = new Set([
+  'var', 'if', 'else', 'for', 'while', 'break', 'func', 'return'
+])
