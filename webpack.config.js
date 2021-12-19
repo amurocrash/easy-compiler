@@ -13,7 +13,6 @@ module.exports = {
 
   module: {
     rules: [
-      // 添加解析规则
       {
         test: /\.tsx?$/,
         loader: "ts-loader",

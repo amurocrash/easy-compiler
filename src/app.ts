@@ -1,5 +1,3 @@
-import { deleteComment, expression, func } from './test/Lexer.test'
+import { simple } from './test/Parser.test'
 
-expression()
-func()
-deleteComment()
+simple()

@@ -39,7 +39,7 @@ class PeekIterator {
   }
 
   hasNext() {
-    return this.endToken || !!this.next
+    return this.endToken || !!this.peek()
   }
 
   next() {
